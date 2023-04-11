@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="employeeDatabase v0.06 JFX">
+    <output-path>$PROJECT_DIR$/out/artifacts/employeeDatabase_v0_06_JFX</output-path>
+    <root id="root">
+      <element id="archive" name="employeeDatabase.jar">
+        <element id="module-output" name="employeeDatabase" />
+      </element>
+    </root>
+  </artifact>
+</component>
