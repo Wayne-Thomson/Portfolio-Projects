@@ -3,7 +3,7 @@ Here are my portfolio projects
 
 A simple breakdown:
 
-1. Favourite Anime List
+1. AnimeFAV
 Create a list of your favourite anime and then generate a sharecode that others can use to view your list. Consumes MyAnimeList.com API. Completely a frontend application that runs stateless.
 
 2. E-Commerce
