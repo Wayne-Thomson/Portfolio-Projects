@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="saveLoad" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.saveLoadController">
+    <Label layoutX="422.0" layoutY="124.0" text="Save / Load" textFill="#e1e824">
+        <font>
+            <Font name="Times New Roman Bold Italic" size="40.0" />
+        </font>
+    </Label>
+    <Pane layoutX="115.0" layoutY="218.0" prefHeight="369.0" prefWidth="277.0" style="-fx-border-color: green;">
+        <Label layoutX="106.0" layoutY="24.0" text="Load" textAlignment="CENTER">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Button layoutX="71.0" layoutY="149.0" mnemonicParsing="false" onAction="#handleLoadLocation" text="Set Load File" />
+        <Button layoutX="105.0" layoutY="185.0" mnemonicParsing="false" onAction="#loadFromFile" text="Load" />
+    </Pane>
+    <Pane layoutX="761.0" layoutY="212.0" prefHeight="381.0" prefWidth="309.0" style="-fx-border-color: green;">
+        <Label layoutX="123.0" layoutY="28.0" text="Save">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Button layoutX="95.0" layoutY="153.0" mnemonicParsing="false" onAction="#handleSaveLocation" text="Set Save Location" />
+        <Button layoutX="129.0" layoutY="191.0" mnemonicParsing="false" onAction="#saveToFile" text="Save" />
+    </Pane>
+    <Button layoutX="486.0" layoutY="612.0" mnemonicParsing="false" onAction="#switchToMainMenu" text="Return to Main Menu" />
+    <TextArea editable="false" layoutX="422.0" layoutY="218.0" prefHeight="369.0" prefWidth="309.0" style="-fx-border-color: green;" text="You first need to set the save/load location and then click save or load. A bit silly, I am going to shift to menu bar at some point in near future." wrapText="true">
+      <font>
+         <Font name="Times New Roman" size="15.0" />
+      </font></TextArea>
+</AnchorPane>
