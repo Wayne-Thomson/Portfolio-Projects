@@ -4,7 +4,7 @@ Here are my portfolio projects
 A simple breakdown:
 
 1. AnimeFAV
-Create a list of your favourite anime and then generate a sharecode that others can use to view your list. Consumes MyAnimeList.com API. Completely a frontend application that runs stateless.
+Create a list of your favourite anime and then generate a sharecode that others can use to view your list. Consumes MyAnimeList.com API. A frontend application that runs stateless.
 
 2. E-Commerce
 A full stack e-commerce website with a simple admin panel and a store front with working checkout system and user accounts.
@@ -27,3 +27,6 @@ STACK -
 6. Algorithms
 Some little visaul displays of various sorting and path finding algorithms. Mostly made or fun and to get better with some of them.
 STACK -
+
+7. Other Stuff
+Old projects. 1st Employee Database written in vanila Java and the JavaFX interface framework (Old and had issues getting JavaFX to load program, but backend logic and interface were sound).
